@@ -8,9 +8,9 @@ export default function Settings() {
   const [saved, setSaved] = useState(false);
 
   const [profile, setProfile] = useState({
-    name: "John Doe",
-    email: "john@example.com",
-    phone: "+91 98765 43210",
+    name: "Abhay Raj",
+    email: "abhayraj3051@gmail.com",
+    phone: "+91 9076906408",
     currency: "INR",
     language: "English",
   });
@@ -23,7 +23,7 @@ export default function Settings() {
   });
 
   const handleSave = () => {
-    // Simulate save - in real app, this would call an API
+
     setSaved(true);
     setTimeout(() => setSaved(false), 3000);
   };

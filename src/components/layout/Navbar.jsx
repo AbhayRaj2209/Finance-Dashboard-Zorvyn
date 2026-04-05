@@ -139,10 +139,10 @@ export default function Navbar() {
               className="flex items-center gap-2 p-1 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-200"
             >
               <div className="w-9 h-9 rounded-full bg-gradient-to-br from-primary-500 to-purple-600 flex items-center justify-center text-white font-bold text-sm shadow-lg ring-2 ring-white dark:ring-gray-800">
-                JD
+                AR
               </div>
               <div className="hidden sm:block text-left">
-                <p className="text-sm font-medium text-gray-900 dark:text-white">John Doe</p>
+                <p className="text-sm font-medium text-gray-900 dark:text-white">Abhay Raj</p>
                 <p className="text-xs text-gray-500 dark:text-gray-400">Premium User</p>
               </div>
               <svg className={`hidden sm:block w-4 h-4 text-gray-500 transition-transform ${showProfile ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -156,10 +156,10 @@ export default function Navbar() {
                 <div className="px-4 py-3 border-b border-gray-200 dark:border-gray-700">
                   <div className="flex items-center gap-3">
                     <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary-500 to-purple-600 flex items-center justify-center text-white font-bold text-lg">
-                      JD
+                      AR
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-900 dark:text-white">John Doe</p>
+                      <p className="font-semibold text-gray-900 dark:text-white">Abhay Raj</p>
                       <p className="text-sm text-gray-500 dark:text-gray-400">john@example.com</p>
                     </div>
                   </div>

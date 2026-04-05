@@ -1,62 +1,58 @@
 # Finora - Smart Finance Dashboard
 
-A beautiful and interactive finance dashboard built with React to track income, expenses, and understand spending patterns.
+Finora is a clean and interactive finance dashboard built using React. It helps you keep track of your income, expenses, and overall spending habits in a simple and visual way.
 
-![React](https://img.shields.io/badge/React-19.x-61DAFB?logo=react)
-![Vite](https://img.shields.io/badge/Vite-8.x-646CFF?logo=vite)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-06B6D4?logo=tailwindcss)
+# Features
 
-## Features
-
-### 🏠 Landing Page
+# Landing Page
 - Beautiful animated hero section
 - Feature highlights with hover effects
 - Call-to-action buttons
 - Responsive design
 
-### 📊 Dashboard Overview
-- **Summary Cards**: View Total Balance, Income, and Expenses at a glance
-- **Balance Trend Chart**: Line chart showing monthly income, expenses, and savings trends
-- **Spending Breakdown**: Interactive donut chart showing spending by category
-- **Recent Transactions**: Quick view of your latest financial activity
+# Dashboard Overview
+- Summary Cards: View Total Balance, Income, and Expenses at a glance
+- Balance Trend Chart: Line chart showing monthly income, expenses, and savings trends
+- Spending Breakdown: Interactive donut chart showing spending by category
+- Recent Transactions: Quick view of your latest financial activity
 
-### 💳 Transactions Management
-- **Full Transaction List**: View all transactions with date, description, amount, category, and type
-- **Search**: Find transactions by description or category
-- **Filters**: Filter by category (Housing, Food, Shopping, etc.) and type (Income/Expense)
-- **Sorting**: Sort by date or amount (ascending/descending)
-- **Add/Edit/Delete**: Full CRUD operations (Admin role only)
-- **Export**: Download transactions as CSV or JSON
+# Transactions Management
+- Full Transaction List: View all transactions with date, description, amount, category, and type
+- Search: Find transactions by description or category
+- Filters: Filter by category (Housing, Food, Shopping, etc.) and type (Income/Expense)
+- Sorting: Sort by date or amount (ascending/descending)
+- Add/Edit/Delete: Full CRUD operations (Admin role only)
+- Export: Download transactions as CSV or JSON
 
-### 💡 Financial Insights
-- **Highest/Lowest Spending Categories**: Identify where your money goes
-- **Savings Rate**: Track what percentage of income you're saving
-- **Average Daily Spending**: Monitor your daily expenses
-- **Monthly Comparison**: Compare expenses between months
-- **Income vs Expenses Chart**: Bar chart visualization
-- **Category Breakdown**: Progress bars showing spending distribution
-- **Smart Tips**: Personalized financial advice based on your data
+# Financial Insights
+- Highest/Lowest Spending Categories: Identify where your money goes
+- Savings Rate**: Track what percentage of income you're saving
+- Average Daily Spending: Monitor your daily expenses
+- Monthly Comparison: Compare expenses between months
+- Income vs Expenses Chart: Bar chart visualization
+- Category Breakdown: Progress bars showing spending distribution
+- Smart Tips: Personalized financial advice based on your data
 
-### 👤 Role-Based Access
-- **Admin**: Full access to add, edit, and delete transactions
-- **Viewer**: Read-only access to view all data
+# Role-Based Access
+- Admin: Full access to add, edit, and delete transactions
+- Viewer: Read-only access to view all data
 - Switch roles using the dropdown in the navbar
 
-### 🎨 UI/UX Features
-- **Dark Mode**: Toggle between light and dark themes
-- **Responsive Design**: Works on desktop, tablet, and mobile
-- **Smooth Animations**: Subtle transitions for better experience
-- **Empty State Handling**: Graceful display when no data is available
-- **Data Persistence**: Transactions are saved to localStorage
+# UI/UX Features
+- Dark Mode: Toggle between light and dark themes
+- Responsive Design: Works on desktop, tablet, and mobile
+- Smooth Animations: Subtle transitions for better experience
+- Empty State Handlin: Graceful display when no data is available
+- Data Persistence: Transactions are saved to localStorage
 
 ## Tech Stack
 
-- **React 19** - UI framework
-- **Vite** - Build tool
-- **Tailwind CSS** - Styling
-- **Recharts** - Charts and visualizations
-- **React Router** - Navigation
-- **Context API** - State management
+- React 19 - UI framework
+- Vite - Build tool
+- Tailwind CSS - Styling
+- Recharts- Charts and visualizations
+- React Router - Navigation
+- Context API - State management
 
 ## Getting Started
 
@@ -84,19 +80,6 @@ npm run dev
 
 4. Open your browser and visit `http://localhost:5173`
 
-### Build for Production
-
-```bash
-npm run build
-```
-
-The built files will be in the `dist` folder.
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
 
 ## Project Structure
 
@@ -157,18 +140,4 @@ The application comes with 6 months of sample transaction data including:
 - Income sources (Salary, Freelance, Dividends, Bonuses)
 - Expense categories (Housing, Food, Shopping, Transport, Utilities, Entertainment, Health)
 
-You can reset to default data or add your own transactions.
 
-## Future Enhancements
-
-- [ ] Budget setting and tracking
-- [ ] Recurring transactions
-- [ ] Multiple accounts support
-- [ ] Data import from CSV
-- [ ] PDF report generation
-- [ ] Charts for specific date ranges
-- [ ] Currency conversion
-
-## License
-
-MIT

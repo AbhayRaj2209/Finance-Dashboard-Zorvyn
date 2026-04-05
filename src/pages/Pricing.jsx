@@ -28,7 +28,7 @@ export default function Pricing() {
     },
     {
       name: "Pro",
-      price: { monthly: 199, yearly: 1999 },
+      price: { monthly: 199, yearly: 1599 },
       description: "For serious money managers",
       features: [
         "Unlimited transactions",
